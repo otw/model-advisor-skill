@@ -1,11 +1,11 @@
 ---
 name: model-advisor
-description: Recommend an available AI model and supported reasoning or thinking setting when substantial project work begins, then reassess at meaningful phase changes. Use when model choice could materially affect usage or quality.
+description: Recommend an available AI model and supported reasoning or thinking setting that meets the task's quality needs at the lowest expected cost, then reassess at meaningful phase changes. Use when model choice could materially affect usage or quality.
 ---
 
 # Model Advisor
 
-Help the user use the least costly available model and thinking setting likely to finish the current phase well. Account for retries and corrections, not just one turn.
+Prioritize the best final outcome the task requires. First identify the quality and reliability bar; then recommend the least costly available model and thinking setting likely to meet it. Consider the total cost of reaching that outcome, including likely retries and corrections. Do not trade away a meaningful improvement in the final result merely to lower the cost of one turn.
 
 ## At project kickoff
 
@@ -17,7 +17,7 @@ Help the user use the least costly available model and thinking setting likely t
 
 ## During active work
 
-Reassess at meaningful phase boundaries, major scope changes, or when evidence shows the setting is struggling or excessive. Signals include repeated failed attempts, a move from architecture to routine edits, unusually broad context, or a new need for careful visual or cross-system judgment. Suggest a change only when it is likely to improve total usage, speed, or quality. State the evidence and proposed model and thinking setting in one or two sentences. Stay quiet when the current setting still fits.
+Reassess at meaningful phase boundaries, major scope changes, or when evidence shows the setting is struggling or excessive. Signals include repeated failed attempts, a move from architecture to routine edits, unusually broad context, or a new need for careful visual or cross-system judgment. Suggest a change when the current setting risks missing the quality bar, or when another setting is likely to meet the same bar at lower total cost. State the evidence and proposed model and thinking setting in one or two sentences. Stay quiet when the current setting still fits.
 
 Use a lower thinking setting for narrow, clear tasks; a middle setting for ordinary implementation and diagnosis; and a higher setting for genuinely difficult reasoning, broad design decisions, or consequential verification. Match the product's actual controls and the current phase. Do not assume labels such as `high` mean the same thing across providers or models. A large project does not by itself require a stronger model.
 
